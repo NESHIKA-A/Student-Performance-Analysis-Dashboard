@@ -5,7 +5,7 @@ import plotly.express as px
 from navbar import show_navbar
 from theme import apply_theme
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://student-performance-analysis-dashboard.onrender.com"
 
 st.set_page_config(page_title="Performance Trends", page_icon="📈", layout="wide")
 apply_theme()

@@ -4,7 +4,7 @@ import pandas as pd
 from theme import apply_theme
 from navbar import show_navbar
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://student-performance-analysis-dashboard.onrender.com"
 
 st.set_page_config(
     page_title="Leaderboard",
